@@ -37,6 +37,8 @@
                         "arista_ceos",
                         "crpd",
                         "juniper_crpd",
+                        "csrx",
+                        "juniper_csrx",
                         "sonic-vs",
                         "sonic-vm",
                         "vr-sros",

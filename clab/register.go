@@ -11,6 +11,7 @@ import (
 	ceos "github.com/srl-labs/containerlab/nodes/ceos"
 	checkpoint_cloudguard "github.com/srl-labs/containerlab/nodes/checkpoint_cloudguard"
 	crpd "github.com/srl-labs/containerlab/nodes/crpd"
+	csrx "github.com/srl-labs/containerlab/nodes/csrx"
 	cvx "github.com/srl-labs/containerlab/nodes/cvx"
 	"github.com/srl-labs/containerlab/nodes/dell_sonic"
 	ext_container "github.com/srl-labs/containerlab/nodes/ext_container"
@@ -55,6 +56,7 @@ func (c *CLab) RegisterNodes() {
 	ceos.Register(c.Reg)
 	checkpoint_cloudguard.Register(c.Reg)
 	crpd.Register(c.Reg)
+	csrx.Register(c.Reg)
 	cvx.Register(c.Reg)
 	ext_container.Register(c.Reg)
 	fortinet_fortigate.Register(c.Reg)
